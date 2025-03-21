@@ -13,6 +13,7 @@ daggerHiltVersion = "2.51.1"
 lifeDataVersion = "1.2.1"
 runtimeLivedata = "1.7.8"
 roomVersion = "2.6.1"
+uiTestJunit4Android = "1.7.8"
 
 
 [libraries]
@@ -41,6 +42,7 @@ androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtim
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVersion"}
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion"}
+androidx-ui-test-junit4-android = { group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
 
 
 [plugins]

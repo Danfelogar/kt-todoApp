@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import app.vercel.danfelogarporfolios.kt_todoapp.addtasks.ui.DanfelogarComponent
 import app.vercel.danfelogarporfolios.kt_todoapp.addtasks.ui.TasksScreen
 import app.vercel.danfelogarporfolios.kt_todoapp.addtasks.ui.TasksViewModel
 import app.vercel.danfelogarporfolios.kt_todoapp.ui.theme.KtTodoAppTheme
@@ -25,10 +26,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             KtTodoAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TasksScreen(
-                        modifier = Modifier.padding(innerPadding),
-                        tasksViewModel = tasksViewModel
-                    )
+//                    TasksScreen(
+//                        modifier = Modifier.padding(innerPadding),
+//                        tasksViewModel = tasksViewModel
+//                    )
+                    DanfelogarComponent()
                 }
             }
         }
